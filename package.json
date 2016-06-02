@@ -10,7 +10,6 @@
   "author": "Yamil Asusta",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^2.0.0",
     "koa": "^1.2.0",
     "lynx": "^0.2.0"
   }

@@ -1,6 +1,5 @@
 'use strict';
 
-require('dotenv').load();
 const koa = require('koa');
 const lynx = require('lynx');
 
