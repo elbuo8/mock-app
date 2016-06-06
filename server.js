@@ -28,6 +28,7 @@ app.use(function *(next) {
 
 app.use(function *() {
   this.status = this.query.status ? parseInt(this.query.status, 10) : 200;
+  this.body = 'second branch';
 });
 
 app.listen(process.env.PORT || 3000);
